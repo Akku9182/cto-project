@@ -66,8 +66,8 @@ const Footer = () => {
                 <a
                   key={index}
                   href={social.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  target={social.url.startsWith('mailto:') ? undefined : '_blank'}
+                  rel={social.url.startsWith('mailto:') ? undefined : 'noopener noreferrer'}
                   aria-label={social.name}
                   className="social-link"
                 >

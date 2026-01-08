@@ -68,8 +68,8 @@ const Offerings = () => {
   return (
     <section id="offerings" className="section offerings">
       <div className="offerings-container">
-        <h2 className="section-title">Offerings</h2>
-        <p className="section-subtitle">What I can do for you</p>
+        <h2 className="section-title">Capabilities</h2>
+        <p className="section-subtitle">How I add value</p>
         
         <div className="offerings-grid">
           {offerings.map((offering, index) => (

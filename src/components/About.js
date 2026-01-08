@@ -43,15 +43,15 @@ const About = () => {
           <div className="about-stats">
             <div className="stat-item">
               <div className="stat-number">Hands-on</div>
-              <div className="stat-label">Experience on Various Projects</div>
+              <div className="stat-label">experience across multiple projects</div>
             </div>
             <div className="stat-item">
-              <div className="stat-number">Hands-on</div>
-              <div className="stat-label">Experience with 7+ Technologies</div>
+              <div className="stat-number">Practical</div>
+              <div className="stat-label">experience with 7+ technologies</div>
             </div>
             <div className="stat-item">
               <div className="stat-number">Eager</div>
-              <div className="stat-label">To Learn</div>
+              <div className="stat-label">to learn and adapt</div>
             </div>
           </div>
 

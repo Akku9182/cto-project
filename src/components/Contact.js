@@ -110,11 +110,6 @@ const Contact = () => {
                 </div>
               ))}
             </div>
-
-            <div className="availability">
-              <div className="availability-indicator"></div>
-              <span>Available for freelance projects</span>
-            </div>
           </div>
 
           <div className="contact-form-section">

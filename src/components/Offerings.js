@@ -1,8 +1,8 @@
 import React from 'react';
-import './Services.css';
+import './Offerings.css';
 
-const Services = () => {
-  const services = [
+const Offerings = () => {
+  const offerings = [
     {
       title: 'Full-Stack Web Development',
       description: 'End-to-end web application development using modern technologies like React, Node.js, Java, and Python. Building scalable and maintainable solutions from database to user interface.',
@@ -66,23 +66,23 @@ const Services = () => {
   ];
 
   return (
-    <section id="services" className="section services">
-      <div className="services-container">
-        <h2 className="section-title">Services</h2>
+    <section id="offerings" className="section offerings">
+      <div className="offerings-container">
+        <h2 className="section-title">Offerings</h2>
         <p className="section-subtitle">What I can do for you</p>
         
-        <div className="services-grid">
-          {services.map((service, index) => (
+        <div className="offerings-grid">
+          {offerings.map((offering, index) => (
             <div 
-              className="service-card" 
+              className="offering-card" 
               key={index}
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <div className="service-icon">{service.icon}</div>
-              <h3 className="service-title">{service.title}</h3>
-              <p className="service-description">{service.description}</p>
-              <ul className="service-features">
-                {service.features.map((feature, idx) => (
+              <div className="offering-icon">{offering.icon}</div>
+              <h3 className="offering-title">{offering.title}</h3>
+              <p className="offering-description">{offering.description}</p>
+              <ul className="offering-features">
+                {offering.features.map((feature, idx) => (
                   <li key={idx}>
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3">
                       <polyline points="20 6 9 17 4 12"/>
@@ -99,4 +99,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Offerings;

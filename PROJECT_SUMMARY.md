@@ -38,14 +38,14 @@ A professional, modern portfolio website built with React showcasing Vishrut Sha
 - Shimmer effects on progress bars
 - Responsive grid layout
 
-### 5. **Services Section**
-- 5 comprehensive service offerings:
+### 5. **Offerings Section**
+- 5 comprehensive offerings:
   - Full-Stack Web Development
   - Responsive UI/UX Design
   - Database Design & Optimization
   - Web Application Development
   - Frontend Development with React
-- Feature lists for each service
+- Feature lists for each offering
 - SVG icons
 - Hover effects with color transitions
 - Card-based responsive design
@@ -72,7 +72,6 @@ A professional, modern portfolio website built with React showcasing Vishrut Sha
   - LinkedIn profile
   - GitHub profile
   - Location
-- Availability status indicator
 - Status feedback on form submission
 - Two-column responsive layout
 
@@ -159,8 +158,8 @@ vishrut-shastri-portfolio/
 │   │   ├── About.css
 │   │   ├── Skills.js             # Skills showcase
 │   │   ├── Skills.css
-│   │   ├── Services.js           # Services offered
-│   │   ├── Services.css
+│   │   ├── Offerings.js          # Offerings offered
+│   │   ├── Offerings.css
 │   │   ├── Portfolio.js          # Projects showcase
 │   │   ├── Portfolio.css
 │   │   ├── Contact.js            # Contact form
@@ -218,7 +217,7 @@ vishrut-shastri-portfolio/
 - **Sections**: 7 main sections
 - **Projects Showcased**: 4 detailed case studies
 - **Skills Listed**: 7 primary + 10 additional
-- **Services Offered**: 5 comprehensive services
+- **Offerings Offered**: 5 comprehensive offerings
 
 ## 🚀 Ready for Deployment
 

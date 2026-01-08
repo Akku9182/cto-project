@@ -29,7 +29,7 @@ The portfolio includes:
 - ✅ Hero section with animated typing effect
 - ✅ About section with professional background
 - ✅ Skills showcase with progress indicators
-- ✅ Services offered
+- ✅ Offerings
 - ✅ Portfolio projects with filtering
 - ✅ Contact form
 - ✅ Responsive footer with social links
@@ -54,6 +54,11 @@ Edit `src/components/About.js`:
 
 Edit `src/components/Skills.js`:
 - Lines 7-48: Modify skills array with your technologies
+
+### Update Offerings
+
+Edit `src/components/Offerings.js`:
+- Update offerings array with your expertise
 
 ### Update Projects
 

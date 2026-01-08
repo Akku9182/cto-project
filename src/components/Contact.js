@@ -20,13 +20,15 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    
+
     const mailtoLink = `mailto:vishrutshastri9182@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
       `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
     )}`;
-    
-    window.location.href = mailtoLink;
-    
+
+    const link = document.createElement('a');
+    link.href = mailtoLink;
+    link.click();
+
     setStatus('Opening your email client...');
     setTimeout(() => {
       setStatus('');
@@ -100,7 +102,11 @@ const Contact = () => {
                   <div className="contact-info-text">
                     <h4>{info.title}</h4>
                     {info.link ? (
-                      <a href={info.link} target="_blank" rel="noopener noreferrer">
+                      <a
+                        href={info.link}
+                        target={info.link.startsWith('mailto:') ? undefined : '_blank'}
+                        rel={info.link.startsWith('mailto:') ? undefined : 'noopener noreferrer'}
+                      >
                         {info.value}
                       </a>
                     ) : (

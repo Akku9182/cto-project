@@ -14,7 +14,7 @@ const Footer = () => {
   const quickLinks = [
     { label: 'About', id: 'about' },
     { label: 'Skills', id: 'skills' },
-    { label: 'Services', id: 'services' },
+    { label: 'Offerings', id: 'offerings' },
     { label: 'Portfolio', id: 'portfolio' },
     { label: 'Contact', id: 'contact' }
   ];
@@ -99,7 +99,6 @@ const Footer = () => {
                 </a>
               </li>
               <li>Based in India</li>
-              <li>Available for freelance</li>
             </ul>
           </div>
         </div>

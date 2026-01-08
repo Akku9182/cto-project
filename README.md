@@ -11,14 +11,14 @@ A modern, responsive portfolio website showcasing the work and skills of Vishrut
 - **Contact Form**: Functional contact form with email integration
 - **Project Showcase**: Detailed portfolio section with project case studies
 - **Skills Display**: Visual representation of technical skills with progress bars
-- **Services Overview**: Comprehensive list of offered services
+- **Offerings Overview**: Comprehensive list of what I can do for you
 
 ## 📋 Sections
 
 1. **Hero Section**: Eye-catching introduction with animated typing effect
 2. **About Section**: Professional background and journey
 3. **Skills Section**: Technical skills with visual progress indicators
-4. **Services Section**: Detailed service offerings
+4. **Offerings Section**: Detailed service offerings
 5. **Portfolio Section**: Featured projects with filtering capability
 6. **Contact Section**: Contact form and information
 7. **Footer**: Social links and quick navigation
@@ -162,8 +162,8 @@ vishrut-shastri-portfolio/
 │   │   ├── About.css
 │   │   ├── Skills.js
 │   │   ├── Skills.css
-│   │   ├── Services.js
-│   │   ├── Services.css
+│   │   ├── Offerings.js
+│   │   ├── Offerings.css
 │   │   ├── Portfolio.js
 │   │   ├── Portfolio.css
 │   │   ├── Contact.js

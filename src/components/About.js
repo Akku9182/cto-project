@@ -7,7 +7,6 @@ const About = () => {
       <div className="about-container">
         <div className="about-content">
           <h2 className="section-title">About Me</h2>
-          <p className="section-subtitle">Passionate about creating digital experiences</p>
           
           <div className="about-text">
             <p>

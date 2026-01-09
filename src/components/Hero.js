@@ -2,7 +2,7 @@ import React, { useEffect, useState, useMemo } from 'react';
 import './Hero.css';
 
 const Hero = () => {
-  const roles = useMemo(() => ['Full Stack Web Developer'], []);
+  const roles = useMemo(() => ['Turning ideas into production-ready web solutions'], []);
   const [displayText, setDisplayText] = useState('');
   const [roleIndex, setRoleIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);

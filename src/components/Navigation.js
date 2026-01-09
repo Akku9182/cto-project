@@ -42,7 +42,7 @@ const Navigation = () => {
         <ul className={`nav-menu ${isMobileMenuOpen ? 'active' : ''}`}>
           <li><button onClick={() => scrollToSection('about')}>About</button></li>
           <li><button onClick={() => scrollToSection('skills')}>Skills</button></li>
-          <li><button onClick={() => scrollToSection('offerings')}>Offerings</button></li>
+          <li><button onClick={() => scrollToSection('offerings')}>Capabilities</button></li>
           <li><button onClick={() => scrollToSection('portfolio')}>Portfolio</button></li>
           <li><button onClick={() => scrollToSection('contact')} className="nav-cta">Contact</button></li>
         </ul>

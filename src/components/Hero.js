@@ -2,7 +2,7 @@ import React, { useEffect, useState, useMemo } from 'react';
 import './Hero.css';
 
 const Hero = () => {
-  const roles = useMemo(() => ['Full Stack Developer', 'Web Development Specialist', 'React Developer'], []);
+  const roles = useMemo(() => ['Turning ideas into production-ready web solutions'], []);
   const [displayText, setDisplayText] = useState('');
   const [roleIndex, setRoleIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);
@@ -20,7 +20,9 @@ const Hero = () => {
         setDisplayText(currentRole.substring(0, charIndex - 1));
         setCharIndex(charIndex - 1);
       } else if (!isDeleting && charIndex === currentRole.length) {
-        setTimeout(() => setIsDeleting(true), 2000);
+        if (roles.length > 1) {
+          setTimeout(() => setIsDeleting(true), 2000);
+        }
       } else if (isDeleting && charIndex === 0) {
         setIsDeleting(false);
         setRoleIndex((roleIndex + 1) % roles.length);

@@ -7,8 +7,7 @@ const About = () => {
       <div className="about-container">
         <div className="about-content">
           <h2 className="section-title">About Me</h2>
-          <p className="section-subtitle">Passionate about creating digital experiences</p>
-          
+
           <div className="about-text">
             <p>
               I’m a passionate Full Stack Developer based in India, focused on creating meaningful digital experiences and elegant solutions to complex problems. What began as a curiosity about how the web works has grown into a purpose-driven journey of building scalable, user-centric applications.

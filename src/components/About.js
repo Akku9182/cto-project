@@ -2,6 +2,11 @@ import React from 'react';
 import './About.css';
 
 const About = () => {
+  const handleImageError = (e) => {
+    // Fallback to SVG placeholder if image fails to load
+    e.target.src = '/assets/profile-placeholder.svg';
+  };
+
   return (
     <section id="about" className="section about">
       <div className="about-container">
@@ -11,7 +16,11 @@ const About = () => {
           <div className="about-main">
             <div className="about-image">
               <div className="image-wrapper">
-                <img src="/assets/profile.jpg" alt="Vishrut Shastri" />
+                <img 
+                  src="/assets/profile.jpg" 
+                  alt="Vishrut Shastri" 
+                  onError={handleImageError}
+                />
               </div>
             </div>
             <div className="about-text">

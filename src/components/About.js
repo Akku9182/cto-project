@@ -11,32 +11,19 @@ const About = () => {
           
           <div className="about-text">
             <p>
-              I'm a passionate Full Stack Developer based in India with a keen eye for creating 
-              elegant solutions to complex problems. My journey in web development started with 
-              a curiosity about how things work on the internet, and it has evolved into a 
-              fulfilling career building scalable, user-centric applications.
+              I’m a passionate Full Stack Developer based in India, focused on creating meaningful digital experiences and elegant solutions to complex problems. What began as a curiosity about how the web works has grown into a purpose-driven journey of building scalable, user-centric applications.
             </p>
-            
+
             <p>
-              With expertise spanning both frontend and backend technologies, I thrive on the 
-              challenge of bringing ideas to life through clean, efficient code. From crafting 
-              intuitive user interfaces with React to architecting robust backend systems with 
-              Java and Python, I approach every project with attention to detail and a commitment 
-              to excellence.
+              With hands-on experience across both frontend and backend development, I enjoy bringing ideas to life through clean, efficient, and maintainable code. From crafting intuitive user interfaces with React to building robust backend systems using Java and Python, I approach every project with precision, ownership, and a commitment to quality.
             </p>
-            
+
             <p>
-              My versatility as a full-stack developer allows me to see the bigger picture while 
-              maintaining focus on the finer details. Whether it's optimizing database queries, 
-              implementing responsive designs, or integrating complex APIs, I bring a holistic 
-              approach to web development that ensures seamless user experiences.
+              As a full-stack developer, I value seeing the bigger picture while paying close attention to detail. Whether it’s optimizing database performance, implementing responsive designs, or integrating complex APIs, I take a holistic approach to ensure seamless and reliable user experiences.
             </p>
-            
+
             <p>
-              I'm constantly learning and staying updated with the latest technologies and best 
-              practices in the ever-evolving world of web development. When I'm not coding, you'll 
-              find me exploring new frameworks, contributing to open-source projects, or sharing 
-              knowledge with the developer community.
+              I’m a continuous learner who stays up to date with modern technologies and industry best practices. Beyond coding, I enjoy exploring new frameworks, contributing to open-source projects, and sharing knowledge within the developer community.
             </p>
           </div>
 
